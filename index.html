@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
     <title>Deformat - Remove Text Formatting Online</title>
-
-    <meta charset="utf-8">
+    
+	<meta charset="utf-8">
     <meta name="description" content="This tool removes all kinds of formatting from text. Just copy and paste.">
-
+	
 	<style>
 		body {
 			margin: 15px;
@@ -17,15 +17,7 @@
 		}
 	</style>
 	
-	<script type="text/javascript">
-		function deformat(input) {
-			var text = document.getElementById('input').value;
-			var strippedText = text.replace(/<(?:.|\n)*?>/gm, '');
-			var strippedText = text.replace(/(\r\n|\n|\r)/gm," ");
-			var strippedText = text.replace(/\s+/g," ");
-			document.getElementById('output').value = strippedText;
-		}
-	</script>
+	<script type="text/javascript" src="deformat.js"></script>
 	
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -34,9 +26,11 @@
 <body>
 	<h1>Deformat - Remove Text Formatting Online</h1>
 	<form>
-		<textarea rows="15" cols="60" id="input"></textarea>
+		<textarea rows="15" cols="60" id="input" placeholder="Enter text here..."></textarea>
+		
 		<input type="button" value="Deformat" onclick="deformat(input);" />
-		<textarea rows="15" cols="60" id="output"></textarea>
+		
+		<textarea rows="15" cols="60" id="output" onclick="this.focus();this.select()" readonly="readonly"></textarea>
 	</form>
 </body>
 </html>
