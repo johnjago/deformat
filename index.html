@@ -11,18 +11,32 @@
 		body {
 			margin: 15px;
 		}
+		
+		input {
+			margin: 5px;
+		}
 	</style>
+	
+	<script type="text/javascript">
+		function deformat(input) {
+			var text = document.getElementById('input').value;
+			var strippedText = text.replace(/<(?:.|\n)*?>/gm, '');
+			var strippedText = text.replace(/(\r\n|\n|\r)/gm," ");
+			var strippedText = text.replace(/\s+/g," ");
+			document.getElementById('output').value = strippedText;
+		}
+	</script>
 	
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
-	<h1></h1>
+	<h1>Deformat - Remove Text Formatting Online</h1>
 	<form>
-		<textarea rows="15" cols="60"></textarea>
-		<input type="submit" value="Deformat">
-		<textarea rows="15" cols="60"></textarea>
+		<textarea rows="15" cols="60" id="input"></textarea>
+		<input type="button" value="Deformat" onclick="deformat(input);" />
+		<textarea rows="15" cols="60" id="output"></textarea>
 	</form>
 </body>
 </html>
