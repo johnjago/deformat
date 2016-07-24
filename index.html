@@ -5,20 +5,17 @@
 	<meta charset="utf-8">
     <meta name="description" content="Online tool to remove all kinds of formatting from text—just copy and paste.">
 	<script type="text/javascript" src="deformat.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 	<style>
 		body {
+			font-family: 'Open Sans', sans-serif;
 			max-width: 900px;
 			margin: 0 auto 0 auto;
 			padding: 0 10px 0 10px;
-			text-align: center;
 		}
 		textarea {
 			width: 900px;
-		}
-		input {
-			margin: 10px 0 10px 0;
-			width: 100px;
-			height: 35px;
+			border: 1px solid black;
 		}
 		a:link {
 			text-decoration: none;
@@ -31,14 +28,51 @@
 		a:visited {
 			color: #000;
 		}
+		input {
+			font-family: 'Open Sans', sans-serif;
+			margin: 20px 0 20px 0;
+			height: 40px;
+			border: 1px solid black;
+			color: black;
+			background-color: white;
+		}
+		#footer {
+			font-size: 0.9em;
+			color: #767676;
+			text-align: center;
+		}
+		#footer a {
+			color: #767676;
+		}
+		.center {
+			text-align: center;
+		}
 	</style>
 </head>
 <body>
 	<h1><a href="index.html">Deformat: Remove Text Formatting Online</a></h1>
+	
+	<div class="center">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-2924705244153344" data-ad-slot="9273118904"></ins>
+		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+	</div>
+	
 	<form>
 		<textarea rows="15" id="input" placeholder="Enter text here..." autofocus="true"></textarea>
+		
 		<input type="button" value="Deformat" onclick="deformat(input);" />
-		<textarea rows="15" id="output" onclick="this.focus();this.select()" readonly="readonly"></textarea>
+		
+		<textarea rows="15" id="output" onclick="this.select()" readonly="readonly"></textarea>
+		
+		<p onclick="turnOffAutoSelect();"><a href="#">Turn off auto select</a></p>
+		
+		<div id="footer">
+			<p>
+				<a href="https://creativecommons.org/publicdomain/zero/1.0/">Uncopyright</a> - 
+				<a href="https://github.com/johnjago/Deformat">v1.1</a>
+			</p>
+		</div>
 	</form>
 </body>
 </html>
