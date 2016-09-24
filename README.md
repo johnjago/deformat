@@ -1,4 +1,4 @@
 # Deformat
-Online tool to remove all kinds of formatting from text.
+Online tool to remove formatting, whitespace, and line breaks from text.
 
-https://johnjago.com/deformat/
+Try it out: https://johnjago.com/deformat/
