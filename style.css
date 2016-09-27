@@ -6,7 +6,11 @@ body {
 }
 
 h1 {
-	margin-bottom: 13px;
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 8px;
 }
 
 textarea {

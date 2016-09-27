@@ -9,13 +9,14 @@
 </head>
 
 <body>
-	<h1><a href="index.html">Deformat: Remove Text Formatting Online</a></h1>
+	<h1><a href="index.html">Deformat</a></h1>
+	<p>Remove formatting, whitespace, and line breaks from text.</p>
 	
 	<form>
 		<textarea rows="15" id="input" placeholder="Enter text here..." autofocus="true"></textarea>
 		<input type="button" value="Deformat" onclick="deformat(input);" />
 		<textarea rows="15" id="output" onclick="this.select()" readonly="readonly"></textarea>
-		<p onclick="turnOffAutoSelect();"><a href="#">Turn off auto select</a></p>
+		<input type="button" value="Turn off auto select" onclick="turnOffAutoSelect();" />
 	</form>
 	
 	<div id="footer">
