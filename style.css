@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: monospace;
 	max-width: 1000px;
 	margin: 0 auto 0 auto;
 }
@@ -13,7 +13,7 @@ p {
 }
 
 textarea {
-	width: 1000px;
+	width: 95%;
 	border: 1px solid black;
 }
 
@@ -34,6 +34,7 @@ a:visited {
 input {
 	margin: 20px 0 20px 0;
 	height: 40px;
+	border: 1px solid black;
 }
 
 #footer {
