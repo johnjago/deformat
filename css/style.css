@@ -36,21 +36,18 @@ h1 {
 }
 
 p {
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 textarea {
 	font: 0.9em 'Lato', sans-serif;
 	width: 100%;
-	border: 1px solid #757575;
 	padding: 5px;
+	border: 1px solid #ababab;
+	border-radius: 2px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-}
-
-textarea:focus {
-	border: 1px solid #333;
 }
 
 a:link, a:visited {
@@ -63,15 +60,18 @@ a:hover {
 }
 
 input {
+	color: #333;
 	margin: 20px 5px 0 0;
-	height: 40px;
-	border: 1px solid #757575;
-	background-color: #eee;
+	height: 50px;
+	width: 100px;
+	border: 1px solid #fff;
+	background-color: #f2f2f2;
+	border-radius: 2px;
 }
 
 input:hover {
-	color: #000;
-	border: 1px solid #333;
+	background-color: #f8f8f8;
+	border: 1px solid #ababab;
 }
 
 @media (max-width: 480px) {
