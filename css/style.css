@@ -39,6 +39,24 @@ p {
 	margin: 15px 0;
 }
 
+ul {
+	margin: 15px 0;
+}
+
+li {
+	margin-left: 25px;
+	line-height: 22px;
+}
+
+code {
+	font-family: monospace;
+	background-color: #eee;
+}
+
+strong {
+	font-weight: bold;
+}
+
 textarea {
 	font: 0.9em 'Lato', sans-serif;
 	width: 100%;
@@ -65,8 +83,9 @@ input {
 	height: 50px;
 	width: 100px;
 	border: 1px solid #fff;
-	background-color: #f2f2f2;
+	background-color: #ddd;
 	border-radius: 2px;
+	font: inherit;
 }
 
 input:hover {
