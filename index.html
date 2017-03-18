@@ -12,8 +12,10 @@
 <body>
 <h1><a href="/deformat">Deformat</a></h1>
 <p>A simple online tool to remove whitespace and line breaks from text.</p>
-<p>The following characters are removed: \r\n, \r, \n and extra single space characters.</p>
-<p>Use Ctrl+A to select all text.</p>
+<ul>
+	<li>The following characters are removed: <code>\r\n</code>, <code>\r</code>, <code>\n</code> and extra single space characters.</li>
+	<li>Use <strong>Ctrl+A</strong> to select all text.</li>
+</ul>
 <form>
 	<textarea rows="25" id="input" placeholder="Paste text here" autofocus="true"></textarea>
 	<input type="button" value="Deformat" onclick="deformat(input);" />
