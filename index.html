@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Strip Whitespace and Line Breaks from Text</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A simple online tool to remove whitespace and line breaks from text.">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="shortcut icon" href="favicon.ico">
-	<script type="text/javascript" src="js/deformat.js"></script>
+  <title>Strip Whitespace and Line Breaks from Text</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple online tool to remove whitespace and line breaks from text.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="js/deformat.js"></script>
 </head>
 <body>
-<h1><a href="/deformat">Deformat</a></h1>
-<p>A simple online tool to remove whitespace and line breaks from text.</p>
-<ul>
-	<li>The following characters are removed: <code>\r\n</code>, <code>\r</code>, <code>\n</code> and extra single space characters.</li>
-	<li>Use <strong>Ctrl+A</strong> to select all text.</li>
-</ul>
-<form>
-	<textarea rows="25" id="input" placeholder="Paste text here" autofocus="true"></textarea>
-	<input type="button" value="Deformat" onclick="deformat(input);" />
-	<input type="button" value="Clear All" onclick="eraseText();" />
-</form>
+  <h1><a href="/deformat">Deformat</a></h1>
+  <p>A simple online tool to remove whitespace and line breaks from text.</p>
+  <ul>
+    <li>The following characters are removed: <code>\r\n</code>, <code>\r</code>, <code>\n</code> and extra single space characters.</li>
+    <li>Use <strong>Ctrl+A</strong> to select all text.</li>
+  </ul>
+  <form>
+    <textarea rows="25" id="input" placeholder="Paste text here" autofocus="true"></textarea>
+    <input type="button" value="Deformat" onclick="deformat(input);" />
+    <input type="button" value="Clear All" onclick="eraseText();" />
+  </form>
 </body>
 </html>

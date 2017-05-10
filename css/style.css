@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -13,89 +13,90 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 
 body {
-	font: 1em 'Lato', sans-serif;
-	color: #333;
-	background-color: #fff;
-	max-width: 60%;
-	margin: 0 auto;
-	padding: 10px;
+  background-color: #fff;
+  color: #333;
+  font: 1em 'Lato', sans-serif;
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 10px;
 }
 
 h1 {
-	font-size: 1.5em;
-	font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 p {
-	margin: 15px 0;
+  margin: 15px 0;
 }
 
 ul {
-	margin: 15px 0;
+  margin: 15px 0;
 }
 
 li {
-	margin-left: 25px;
-	line-height: 22px;
+  line-height: 22px;
+  margin-left: 25px;
 }
 
 code {
-	font-family: monospace;
-	background-color: #eee;
+  background-color: #eee;
+  font-family: monospace;
 }
 
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 textarea {
-	font: 0.9em 'Lato', sans-serif;
-	width: 100%;
-	padding: 5px;
-	border: 1px solid #ababab;
-	border-radius: 2px;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+  border: 1px solid #ababab;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font: 0.9em 'Lato', sans-serif;
+  padding: 5px;
+  width: 100%;
 }
 
-a:link, a:visited {
-	text-decoration: none;
-	color: #333;
+a:link,
+a:visited {
+  color: #333;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #777;
+  color: #777;
 }
 
 input {
-	color: #333;
-	margin: 20px 5px 0 0;
-	height: 50px;
-	width: 100px;
-	border: 1px solid #fff;
-	background-color: #ddd;
-	border-radius: 2px;
-	font: inherit;
+  background-color: #ddd;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #333;
+  font: inherit;
+  height: 50px;
+  margin: 20px 5px 0 0;
+  width: 100px;
 }
 
 input:hover {
-	background-color: #f8f8f8;
-	border: 1px solid #ababab;
+  background-color: #f8f8f8;
+  border: 1px solid #ababab;
 }
 
 @media (max-width: 480px) {
-	body {
-		font-size: 1.2em;
-		max-width: 90%;
-	}
+  body {
+    font-size: 1.2em;
+    max-width: 90%;
+  }
 }
