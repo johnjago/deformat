@@ -7,7 +7,6 @@
   <meta name="description" content="A simple online tool to remove whitespace and line breaks from text.">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.ico">
-  <script src="deformat.js"></script>
 </head>
 <body>
   <h1><a href="/deformat">Deformat</a></h1>
@@ -18,8 +17,9 @@
   </ul>
   <form>
     <textarea rows="25" id="input" placeholder="Paste text here" autofocus></textarea>
-    <input type="button" value="Deformat" onclick="deformat(input);" />
-    <input type="button" value="Clear All" onclick="eraseText();" />
+    <input id="deformat" type="button" value="Deformat" />
+    <input id="clear" type="button" value="Clear" />
   </form>
+  <script src="deformat.js"></script>
 </body>
 </html>
