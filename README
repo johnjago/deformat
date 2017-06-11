@@ -5,7 +5,7 @@ A simple online tool that removes whitespace and line breaks from text.
 
   https://johnjago.com/deformat/
 
-Run gulp to minify HTML, CSS, and JS.
+Run gulp to minify HTML, CSS, and JavaScript.
 
 License
 -------
