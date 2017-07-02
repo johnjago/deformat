@@ -5,7 +5,9 @@ var htmlmin = require('gulp-htmlmin');
 
 gulp.task('minify-js', function() {
   return gulp.src('src/*.js')
-    .pipe(uglify())
+    .pipe(uglify({ output: {
+      comments: true
+    }}))
     .pipe(gulp.dest('dist'));
 });
 
