@@ -12,13 +12,14 @@
     <h1>Deformat</h1>
     <p>A simple online tool to remove whitespace and line breaks from text.</p>
     <ul>
-      <li>The following characters are removed: <code>\r\n</code>, <code>\r</code>, <code>\n</code> and extra single space characters.</li>
+      <li>The following characters are removed: \r\n, \r, \n, and extra single space characters.</li>
       <li>Use <strong>Ctrl+A</strong> to select all text.</li>
+      <li>The <a href="https://gitlab.com/johnjago/deformat/blob/master/src/deformat.js">JavaScript</a> for this tool is <a href="https://www.gnu.org/philosophy/javascript-trap.html">free</a>.</li>
     </ul>
     <form>
-      <textarea rows="25" id="input" placeholder="Paste text here." autofocus></textarea>
-      <input id="deformat" type="button" value="Deformat" />
-      <input id="clear" type="button" value="Clear" />
+      <textarea id="input" rows="25" placeholder="Paste text here." autofocus></textarea>
+      <input id="deformat" type="button" value="Deformat">
+      <input id="clear" type="button" value="Clear">
     </form>
     <script src="deformat.js"></script>
   </body>

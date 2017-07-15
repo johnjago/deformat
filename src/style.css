@@ -38,13 +38,8 @@ p, ul {
 }
 
 li {
-  line-height: 22px;
+  line-height: 2em;
   margin-left: 25px;
-}
-
-code {
-  background-color: #eee;
-  font-family: monospace;
 }
 
 strong {
