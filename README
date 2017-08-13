@@ -5,9 +5,26 @@ A simple online tool that removes whitespace and line breaks from text.
 
   https://johnjago.com/deformat/
 
-Run gulp to minify HTML, CSS, and JavaScript.
+Build
+-----
+
+Run the command
+
+  gulp
+
+to minify files.
+
+Thanks
+------
+
+BafS/mu for the 1 KB CSS framework.
 
 License
 -------
 
-Unlicense
+GNU GPLv3
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
