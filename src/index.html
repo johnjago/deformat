@@ -5,22 +5,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A simple online tool to remove whitespace and line breaks from text.">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mu.css">
     <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
     <h1>Deformat</h1>
     <p>A simple online tool to remove whitespace and line breaks from text.</p>
+    <form>
+      <textarea id="text" rows="25" placeholder="Paste text here" autofocus></textarea>
+      <button id="deformat" type="button" class="primary">Deformat</button>
+      <button id="clear" type="button" class="btn btn-secondary">Clear</button>
+    </form>
+    <p>No more manually removing each line break when pasting large chunks of text from a book. This tool also cleans up any messed up formatting that involves whitespace.</p>
+    <h2>Tips:</h2>
     <ul>
       <li>The following characters are removed: \r\n, \r, \n, and extra single space characters.</li>
       <li>Use <strong>Ctrl+A</strong> to select all text.</li>
-      <li>The <a href="https://gitlab.com/johnjago/deformat/blob/master/src/deformat.js">JavaScript</a> for this tool is <a href="https://www.gnu.org/philosophy/javascript-trap.html">free</a>.</li>
+      <li>Click the Deformat button to remove whitespace.</li>
+      <li>Use the Clear button to remove all text from the box.</li>
     </ul>
-    <form>
-      <textarea id="input" rows="25" placeholder="Paste text here." autofocus></textarea>
-      <input id="deformat" type="button" value="Deformat">
-      <input id="clear" type="button" value="Clear">
-    </form>
+    <p>Find the <a href="https://gitlab.com/johnjago/deformat">source code on GitLab</a>.</p>
     <script src="deformat.js"></script>
   </body>
 </html>
