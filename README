@@ -1,22 +1,24 @@
-Deformat
+# Deformat
 
-  A simple online tool that removes whitespace and line breaks from text.
+A simple online tool that removes extra whitespace and line breaks from text.
 
-  https://www.johnjago.com/deformat/
+## Demo
 
-BUILD
+https://www.johnjago.com/deformat/
 
-  $ gulp
+## Building
 
-THANKS
+    $ gulp
 
-  BafS/mu for the 1 KB CSS framework.
+## Thanks
 
-LICENSE
+BafS/mu for the 1 KB CSS framework.
 
-  GNU GPLv3
+## License
 
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+GNU GPLv3
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
