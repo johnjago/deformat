@@ -1,6 +1,6 @@
 {
   "name": "deformat",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Remove extra whitespace characters and line breaks from text.",
   "devDependencies": {
     "gulp": "^3.9.1",
