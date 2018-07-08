@@ -10,9 +10,7 @@ https://www.johnjago.com/deformat/
 
     $ gulp
 
-## Thanks
-
-BafS/mu for the 1 KB CSS framework.
+Production-ready output will be in dist/
 
 ## License
 
