@@ -1,20 +1,17 @@
 {
   "name": "deformat",
   "version": "1.1.0",
-  "description": "Simple online tool to remove whitespace and line breaks from text.",
-  "main": "gulpfile.js",
-  "dependencies": {
+  "description": "Remove extra whitespace characters and line breaks from text.",
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-uglify": "^3.0.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/johnjago/deformat.git"
   },
-  "author": "John Jago",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://gitlab.com/johnjago/deformat/issues"

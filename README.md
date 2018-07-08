@@ -1,6 +1,6 @@
 # Deformat
 
-A simple online tool that removes extra whitespace and line breaks from text.
+Remove extra whitespace characters and line breaks from text.
 
 ## Demo
 
