@@ -1,15 +1,12 @@
-# Contributing to Deformat
+# Contributing
 
 Improvements are always welcome.
 
-Report bugs, defects, and other issues using the
-[issue tracker](https://gitlab.com/johnjago/deformat/issues).
+Report bugs and make suggestions using the [issue tracker](https://gitlab.com/johnjago/deformat/issues).
 
 To contribute code, follow these steps:
 
-  1. Create an issue with the appropriate label and describe what you are
-     working on.
-  2. Fork and clone the repository.
-  3. Make your changes.
-  4. Push your changes.
-  5. Create a merge request.
+  1. Fork and clone the repository.
+  2. Make your changes.
+  3. Push your changes.
+  4. Create a merge request.

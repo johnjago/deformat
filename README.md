@@ -1,12 +1,19 @@
 # Deformat
 
-Remove extra whitespace characters and line breaks from text.
+Deformat is a web-based tool that removes extra whitespace characters
+and line breaks from text. It is useful for cleaning up text copied from PDFs
+and other documents where the copied text might have excessive spacing and
+other formatting issues.
 
-## Demo
+https://johnjago.com/deformat
 
-https://www.johnjago.com/deformat/
+## Development
 
-## Building
+To download the necessary dependencies:
+
+    $ npm install
+
+This project uses Gulp to minify files for production.
 
     $ gulp
 
@@ -14,9 +21,4 @@ Production-ready output will be in dist/
 
 ## License
 
-GNU GPLv3
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+The Unlicense

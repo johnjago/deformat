@@ -1,9 +1,9 @@
 {
   "name": "deformat",
-  "version": "1.1.1",
-  "description": "Remove extra whitespace characters and line breaks from text.",
+  "version": "1.1.2",
+  "description": "Remove line breaks and extra whitespace characters from text.",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^3.9.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-uglify": "^3.0.0"
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@gitlab.com/johnjago/deformat.git"
   },
-  "license": "GPL-3.0",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://gitlab.com/johnjago/deformat/issues"
   },
