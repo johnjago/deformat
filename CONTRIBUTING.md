@@ -1,4 +1,4 @@
-# Contributing to Deformat
+# Contributing
 
 Improvements are always welcome.
 
