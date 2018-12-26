@@ -1,45 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Remove extra whitespace characters and line breaks - Deformat</title>
+  <title>Deformat - Clean Up Copied Text</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-        content="Remove extra whitespace characters and line breaks from text.">
+  <meta name="description" content="Deformat removes line breaks and extra whitespace characters from text. Good for cleaning up text copied from PDFs.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
 </head>
 <body>
   <h1>Deformat</h1>
-  <p>Remove extra whitespace characters and line breaks from text.</p>
+  <p>Paste your text below and hit Deformat to remove line breaks and extra whitespace.</p>
   <form>
-    <textarea
-      id="text"
-      rows="25"
-      placeholder="Paste text here"
-      autofocus>
-    </textarea>
+    <textarea id="text" rows="25" placeholder="Paste text here" autofocus></textarea>
     <button id="deformat" type="button" class="primary">Deformat</button>
     <button id="clear" type="button" class="btn btn-secondary">Clear</button>
   </form>
   <p>
     No more manually removing each line break when pasting large chunks of text
-    from a book. This tool also cleans up any messed up formatting that involves
+    from PDF books. This tool also cleans up any messed up formatting that involves
     whitespace.
   </p>
   <h2>Tips</h2>
   <ul>
-    <li>
-      The following characters are removed: <code>\r\n</code>, <code>\r</code>,
-      <code>\n</code>, and extra single space characters.
-    </li>
+    <li>The following characters are removed: <code>\r\n</code>, <code>\r</code>, <code>\n</code>, and extra single space characters.</li>
     <li>Click the <strong>Deformat</strong> button to remove whitespace.</li>
     <li>Use <strong>Ctrl+A</strong> to select all text.</li>
     <li>Use the <strong>Clear</strong> button to remove all text.</li>
   </ul>
-  <p>
-    <a href="https://gitlab.com/johnjago/deformat">Source code</a>
-  </p>
+  <p><a href="https://gitlab.com/johnjago/deformat">Source code</a></p>
   <script src="deformat.js"></script>
 </body>
 </html>
