@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/johnjago/deformat.git"
+    "url": "git+ssh://git@github.com/johnjago/deformat.git"
   },
   "license": "Unlicense",
   "bugs": {
-    "url": "https://gitlab.com/johnjago/deformat/issues"
+    "url": "https://github.com/johnjago/deformat/issues"
   },
-  "homepage": "https://gitlab.com/johnjago/deformat"
+  "homepage": "https://github.com/johnjago/deformat"
 }

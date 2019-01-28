@@ -31,9 +31,9 @@
 ## 1.0.0 - 2017-06-11
 - Initial release
 
-[Unreleased]: https://gitlab.com/johnjago/deformat/compare/v1.1.1...master
-[1.1.1]: https://gitlab.com/johnjago/deformat/compare/v1.1.0...v1.2.0
-[1.1.0]: https://gitlab.com/johnjago/deformat/compare/v1.0.3...v1.1.0
-[1.0.3]: https://gitlab.com/johnjago/deformat/compare/v1.0.2...v1.0.3
-[1.0.2]: https://gitlab.com/johnjago/deformat/compare/v1.0.1...v1.0.2
-[1.0.1]: https://gitlab.com/johnjago/deformat/compare/v1.0.0...v1.0.1
+[Unreleased]: https://github.com/johnjago/deformat/compare/v1.1.1...master
+[1.1.1]: https://github.com/johnjago/deformat/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/johnjago/deformat/compare/v1.0.3...v1.1.0
+[1.0.3]: https://github.com/johnjago/deformat/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/johnjago/deformat/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/johnjago/deformat/compare/v1.0.0...v1.0.1
