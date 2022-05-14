@@ -5,9 +5,13 @@ and line breaks from text. It is useful for cleaning up text copied from PDFs
 and other documents where the copied text might have excessive spacing and
 other formatting issues.
 
-https://johnjago.com/deformat
+https://deformat.johnjago.com
 
-## Development
+## Run
+
+Simply open the index.html file in the `src/` directory.
+
+## Minified build (optional)
 
 To download the necessary dependencies:
 
