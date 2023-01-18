@@ -1,62 +1,61 @@
 *,
 *:after,
 *:before {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  color: #444;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 40px auto;
-  max-width: 760px;
-  padding: 0 20px;
+	color: #444;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 40px auto;
+	max-width: 760px;
+	padding: 0 20px;
 }
 
 h1, h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.2;
+	line-height: 1.2;
 }
 
 a {
-  color: #07c;
-  text-decoration: none;
+	color: #07c;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #059;
-  text-decoration: underline;
+	color: #059;
+	text-decoration: underline;
 }
 
 button {
-  background: #ddd;
-  border: 0;
-  cursor: pointer;
-  font-size: 14px;
-  padding: 9px 20px;
+	background: #ddd;
+	border: 0;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 9px 20px;
 }
 
 button:hover,
 code {
-  background: #eee;
+	background: #eee;
 }
 
 .primary {
-  background: #19e;
-  color: #fff;
+	background: #19e;
+	color: #fff;
 }
 
 .primary:hover {
-  background: #17e;
+	background: #17e;
 }
 
 textarea {
-  border: 1px solid #ababab;
-  border-radius: 2px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  padding: 5px;
-  width: 100%;
+	border: 1px solid #ababab;
+	border-radius: 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 5px;
+	width: 100%;
 }
