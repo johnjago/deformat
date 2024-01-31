@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Clean up extra space and other formatting from copied text - Deformat</title>
+	<title>Deformat: Clean up extra space and remove formatting from text</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Deformat removes line breaks, newlines, and extra whitespace characters from text. Good for cleaning up text copied from PDFs.">
@@ -15,7 +15,8 @@
 	<form>
 		<textarea id="text" rows="25" placeholder="Paste text here" autofocus></textarea>
 		<button id="deformat" type="button" class="primary">Deformat</button>
-		<button id="clear" type="button" class="btn btn-secondary">Clear</button>
+		<button id="copy" type="button">Copy</button>
+		<button id="clear" type="button">Clear</button>
 	</form>
 	<p>
 		No more manually removing each line break when pasting large chunks of text
@@ -24,12 +25,17 @@
 	</p>
 	<h2>Tips</h2>
 	<ul>
-		<li>The following characters are removed: <code>\r\n</code>, <code>\r</code>, <code>\n</code>, and extra single space characters.</li>
-		<li>Click the <strong>Deformat</strong> button to remove whitespace.</li>
-		<li>Use <strong>Ctrl+A</strong> to select all text.</li>
-		<li>Use the <strong>Clear</strong> button to remove all text.</li>
+		<li>The following characters are removed: carriage return and line feed together (<code>\r\n</code>), carriage return (<code>\r</code>), line feed (<code>\n</code>), and extra single space characters.</li>
+		<li>Click <strong>Deformat</strong> to remove whitespace.</li>
+		<li>Use <strong>Copy</strong> to copy all text to the clipboard.</li>
+		<li>Use <strong>Clear</strong> to remove all text.</li>
 	</ul>
-	<p>a project by <a href="https://undo.studio">undo.studio</a></p>
+	<small>made by <a href="https://johnjago.com">JC</a> • <a href="https://forms.gle/ghcJtmPQNSrdRKfZ8">send feedback</a></small>
+	<div id="toast-container">
+		<div class="toast" id="toast" style="display: none;">
+			Text copied successfully!
+		</div>
+	</div>
 	<script src="deformat.js"></script>
 </body>
 </html>
