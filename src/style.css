@@ -20,12 +20,10 @@ h1, h2 {
 
 a {
 	color: #07c;
-	text-decoration: none;
 }
 
 a:hover {
 	color: #059;
-	text-decoration: underline;
 }
 
 button {
