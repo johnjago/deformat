@@ -39,6 +39,16 @@ code {
 	background: #eee;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+.coffee {
+	margin-left: 0.325rem;
+}
+
 .primary {
 	background: #19e;
 	color: #fff;
